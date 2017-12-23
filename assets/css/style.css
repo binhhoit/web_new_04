@@ -38,6 +38,16 @@
     src: url(../fonts/OpenSans-BoldItalic.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'iCielGotham-Medium';
+    src: url(../fonts/Gotham-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'VNF-Gotham';
+    src: url(../fonts/VNF-Gotham-Book.ttf) format('truetype');
+}
+
 .header {
     position: relative;
 }
@@ -307,18 +317,20 @@ body {
     }
 }
 
-.text_italic {
-    font-family: NotoSerifBoldItalic;
-    font-size: 16px;
-    font-weight: bold;
+.text_question {
+    font-family: iCielGotham-Medium;
+    font-size: 17px;
+    /* font-weight: bold; */
     text-align: justify;
     color: #000000;
 }
 
 .text_content {
-    font-family: NotoSerifRegular;
-    font-size: 16px;
-    line-height: 1.69;
+    font-family: VNF-Gotham;
+    font-size: 17px;
+    line-height: 1.29;
+    font-weight: normal;
+    font-style: normal;
     text-align: justify;
     color: #000000;
 }
