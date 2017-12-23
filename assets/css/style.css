@@ -584,7 +584,7 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .Title_1 {
-        width: 100%;
+        width: 80%;
         object-fit: contain;
         margin: 0 auto;
     }
@@ -615,8 +615,7 @@ div.relative {
     }
     .info_user {
         width: 100%;
-        background-color: #273e59;
-        border: solid 1px #979797;
+        background-color: #d98d9e;
         color: white;
         padding: 20px;
         margin-top: 1%;
@@ -638,7 +637,7 @@ div.relative {
 
 @media (min-width: 778px) and (max-width: 1250px) {
     .Title_1 {
-        width: 100%;
+        width: 60%;
         object-fit: contain;
         margin: 0 auto;
     }
@@ -669,8 +668,7 @@ div.relative {
     }
     .info_user {
         width: 100%;
-        background-color: #273e59;
-        border: solid 1px #979797;
+        background-color: #d98d9e;
         color: white;
         padding: 20px;
         margin-top: 2%;
@@ -697,7 +695,7 @@ div.relative {
 
 @media (min-width: 1251px) {
     .Title_1 {
-        width: 922px;
+        width: 591px;
         object-fit: contain;
         margin: 0 auto;
     }
@@ -733,8 +731,7 @@ div.relative {
     }
     .info_user {
         width: 100%;
-        background-color: #273e59;
-        border: solid 1px #979797;
+        background-color: #d98d9e;
         color: white;
         padding: 52px;
         margin-top: 2%;
@@ -886,17 +883,81 @@ div.relative {
     }
 }
 
-.Text_O {
-    float: left;
-    margin-right: 18px;
-    margin-top: 1%;
+@media (min-width: 0px) and (max-width: 400px) {
+    .title_simple {
+        width: 100% !important;
+        font-family: iCielGotham-Medium;
+        font-size: 20px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #cb5e77;
+    }
+    .ecomic_user {
+        font-family: iCielGotham-Medium;
+        font-size: 16px;
+        text-align: justify;
+        color: #000000;
+        margin-left: 10%;
+        margin-bottom: -4%;
+        margin-top: 4%
+    }
+}
+
+@media (min-width: 400px) and (max-width:1248px) {
+    .title_simple {
+        width: 100% !important;
+        font-family: iCielGotham-Medium;
+        font-size: 30px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #cb5e77;
+    }
+    .ecomic_user {
+        font-family: iCielGotham-Medium;
+        font-size: 22px;
+        text-align: justify;
+        color: #000000;
+        margin-left: 10%;
+        margin-bottom: -4%;
+        margin-top: 4%
+    }
+}
+
+@media (min-width: 1249px) {
+    .title_simple {
+        width: 887px !important;
+        font-family: iCielGotham-Medium;
+        font-size: 40px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #cb5e77;
+    }
+
+    .ecomic_user {
+        font-family: iCielGotham-Medium;
+        font-size: 30px;
+        text-align: justify;
+        color: #000000;
+        margin-left: 10%;
+        margin-bottom: -4%;
+        margin-top: 4%
+    }
 }
 
 .image_tilte_content {
     text-align: center;
     width: 100%;
     padding-bottom: 3%;
-    padding-top: 3%;
+    margin: 0 auto;
 }
 
 .space_row {
