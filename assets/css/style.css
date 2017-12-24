@@ -584,7 +584,7 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .Title_1 {
-        width: 80%;
+        width: 100%;
         object-fit: contain;
         margin: 0 auto;
     }
