@@ -563,8 +563,8 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 1024px) {
     .image_general {
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
     .sign_h8_content {
         margin-top: -4%;
@@ -573,8 +573,8 @@ div.relative {
 
 @media (min-width: 1024px) {
     .image_general {
-        margin-top: 4%;
-        margin-bottom: 4%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     .iv_h1_add_position {
         margin-left: -10%;
