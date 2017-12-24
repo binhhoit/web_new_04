@@ -333,17 +333,11 @@ body {
     font-style: normal;
     text-align: justify;
     color: #000000;
+    margin: 0 auto;
 }
 
 .content {
     margin-top: 2%;
-}
-
-p {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 660px !important;
-    margin: 0 auto !important;
 }
 
 
@@ -588,12 +582,24 @@ div.relative {
 }
 
 @media (min-width: 0px) and (max-width: 777px) {
+    p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .image_and_text {
+        width: 100%;
+        margin: 0 auto;
+    }
     .Title_1 {
         width: 100%;
         object-fit: contain;
         margin: 0 auto;
     }
     .IG_1 {
+        width: 100%;
+        object-fit: contain;
+    }
+    .quote {
         width: 100%;
         object-fit: contain;
     }
@@ -641,6 +647,17 @@ div.relative {
 }
 
 @media (min-width: 778px) and (max-width: 1250px) {
+    p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 660px !important;
+        margin: 0 auto !important;
+    }
+
+    .image_and_text {
+        width: 660px;
+        margin: 0 auto;
+    }
     .Title_1 {
         width: 60%;
         object-fit: contain;
@@ -648,6 +665,10 @@ div.relative {
     }
     .IG_1 {
         width: 90%;
+        object-fit: contain;
+    }
+    .quote {
+        width: 660px;
         object-fit: contain;
     }
     .grid_div {
@@ -672,7 +693,7 @@ div.relative {
         color: #ffffff;
     }
     .info_user {
-        width: 100%;
+        width: 690px;
         background-color: #d98d9e;
         color: white;
         padding: 20px;
@@ -681,7 +702,7 @@ div.relative {
     }
     .iG_7 {
         float: left;
-        width: 40%;
+        width: 100%;
         margin-right: 20px;
     }
     .iv_17 {
@@ -693,12 +714,14 @@ div.relative {
     }
 }
 
-.IG_15 {
-    width: 100%;
-    object-fit: contain;
-}
-
 @media (min-width: 1251px) {
+    .text_table {
+        width: 400px !important;
+    }
+    .image_and_text {
+        width: 760px;
+        margin: 0 auto;
+    }
     .Title_1 {
         width: 591px;
         object-fit: contain;
@@ -708,8 +731,8 @@ div.relative {
         width: 977px;
         object-fit: contain;
     }
-    .IG_15 {
-        width: 1130px;
+    .quote {
+        width: 660px;
         object-fit: contain;
     }
     .grid_div {
@@ -735,7 +758,7 @@ div.relative {
         color: #ffffff;
     }
     .info_user {
-        width: 100%;
+        width: 748px;
         background-color: #d98d9e;
         color: white;
         padding: 52px;
@@ -961,6 +984,7 @@ div.relative {
     text-align: center;
     width: 100%;
     padding-bottom: 3%;
+    padding-top: 3%;
     margin: 0 auto;
 }
 
