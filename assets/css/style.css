@@ -583,8 +583,8 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 777px) {
     p {
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
     }
     .image_and_text {
         width: 100%;
@@ -648,12 +648,9 @@ div.relative {
 
 @media (min-width: 778px) and (max-width: 1250px) {
     p {
-        margin-top: 2%;
-        margin-bottom: 2%;
         width: 660px !important;
-        margin: 0 auto !important;
+        margin: 2% auto !important;
     }
-
     .image_and_text {
         width: 660px;
         margin: 0 auto;
@@ -715,6 +712,10 @@ div.relative {
 }
 
 @media (min-width: 1251px) {
+    p {
+        width: 660px !important;
+        margin: 2% auto !important;
+    }
     .text_table {
         width: 400px !important;
     }
