@@ -342,6 +342,8 @@ body {
 p {
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 660px !important;
+    margin: 0 auto !important;
 }
 
 
@@ -383,6 +385,7 @@ p {
         text-align: justify;
         color: #4a4a4a;
         text-align: left;
+        width: 100% !important;
     }
     .text_see_more {
         font-family: NotoSerifRegular;
@@ -391,12 +394,12 @@ p {
         text-align: justify;
         color: #1e1e1e;
         text-align: left;
-        /* white-space: nowrap; */
+        width: 100% !important;
         overflow: -webkit-paged-y;
         text-overflow: ellipsis;
     }
     .content_see_more {
-        width: 51.8%;
+        width: 51.8% !important;
         float: left;
         margin-left: 5.7%;
     }
@@ -424,6 +427,7 @@ p {
         text-align: justify;
         color: #4a4a4a;
         text-align: left;
+        width: 100% !important;
     }
     .text_see_more {
         height: 66px;
@@ -432,9 +436,10 @@ p {
         text-align: justify;
         color: #1e1e1e;
         text-align: left;
+        width: 100% !important;
     }
     .content_see_more {
-        width: 51.8%;
+        width: 51.8% !important;
         float: left;
         margin-left: 5.7%;
     }
@@ -941,7 +946,6 @@ div.relative {
         text-align: center;
         color: #cb5e77;
     }
-
     .ecomic_user {
         font-family: iCielGotham-Medium;
         font-size: 30px;
